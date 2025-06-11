@@ -1,0 +1,2 @@
+../Src/servo.c:13:6:servo_init	1
+../Src/servo.c:29:7:servo_angle	1
