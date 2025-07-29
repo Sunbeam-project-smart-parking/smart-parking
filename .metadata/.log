@@ -1,0 +1,48 @@
+!SESSION 2025-07-25 12:17:38.926 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-25 12:18:41.625
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-25 12:18:41.626
+!MESSAGE Log4j2 initialized with config file /home/krushna/PROJECT_SMART_PARKING/smart-parking/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-25 12:18:43.258
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-25 12:21:48.109
+!MESSAGE Indexed 'RTOS_1' (34 sources, 100 headers) in 1.95 sec: 7,840 declarations; 50,110 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
+!SESSION 2025-07-25 12:28:15.922 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-25 12:28:20.788
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-25 12:28:20.788
+!MESSAGE Log4j2 initialized with config file /home/krushna/PROJECT_SMART_PARKING/smart-parking/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-25 12:28:23.447
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-07-28 16:32:40.541 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/krushna/PROJECT_SMART_PARKING/smart-parking
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-28 16:32:43.295
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-28 16:32:43.297
+!MESSAGE Log4j2 initialized with config file /home/krushna/PROJECT_SMART_PARKING/smart-parking/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-28 16:32:46.313
+!MESSAGE Started RMI Server, listening on port 41337

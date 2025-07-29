@@ -80,7 +80,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Src/itm.o
  .debug_macro   0x00000000      0x1df ./Src/itm.o
  .debug_line    0x00000000      0x372 ./Src/itm.o
- .debug_str     0x00000000     0x3e1f ./Src/itm.o
+ .debug_str     0x00000000     0x3e33 ./Src/itm.o
  .comment       0x00000000       0x44 ./Src/itm.o
  .debug_frame   0x00000000       0x38 ./Src/itm.o
  .ARM.attributes
@@ -299,7 +299,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Src/syscalls.o
  .debug_macro   0x00000000       0xce ./Src/syscalls.o
  .debug_line    0x00000000      0x7dc ./Src/syscalls.o
- .debug_str     0x00000000     0x99aa ./Src/syscalls.o
+ .debug_str     0x00000000     0x99be ./Src/syscalls.o
  .comment       0x00000000       0x44 ./Src/syscalls.o
  .debug_frame   0x00000000      0x2ac ./Src/syscalls.o
  .ARM.attributes
@@ -364,7 +364,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Src/sysmem.o
  .debug_macro   0x00000000      0x1df ./Src/sysmem.o
  .debug_line    0x00000000      0x4b8 ./Src/sysmem.o
- .debug_str     0x00000000     0x7748 ./Src/sysmem.o
+ .debug_str     0x00000000     0x775c ./Src/sysmem.o
  .comment       0x00000000       0x44 ./Src/sysmem.o
  .debug_frame   0x00000000       0x34 ./Src/sysmem.o
  .ARM.attributes
@@ -1040,12 +1040,12 @@ LOAD /opt/st/stm32cubeide_1.18.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .debug_line    0x000009df      0x4d0 ./Src/system_stm32f4xx.o
  .debug_line    0x00000eaf       0x7b ./Startup/startup_stm32f407vgtx.o
 
-.debug_str      0x00000000    0x8b86b
- .debug_str     0x00000000    0x8b86b ./Src/main.o
-                              0x8b7cc (size before relaxing)
- .debug_str     0x0008b86b    0x87d52 ./Src/servo.o
- .debug_str     0x0008b86b    0x87e29 ./Src/system_stm32f4xx.o
- .debug_str     0x0008b86b       0x74 ./Startup/startup_stm32f407vgtx.o
+.debug_str      0x00000000    0x8b87f
+ .debug_str     0x00000000    0x8b87f ./Src/main.o
+                              0x8b7e0 (size before relaxing)
+ .debug_str     0x0008b87f    0x87d66 ./Src/servo.o
+ .debug_str     0x0008b87f    0x87e3d ./Src/system_stm32f4xx.o
+ .debug_str     0x0008b87f       0x88 ./Startup/startup_stm32f407vgtx.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Src/main.o
@@ -1065,6 +1065,6 @@ LOAD /opt/st/stm32cubeide_1.18.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x00000000       0x25 ./Src/system_stm32f4xx.o
 
 .debug_line_str
-                0x00000000       0x58
+                0x00000000       0x6c
  .debug_line_str
-                0x00000000       0x58 ./Startup/startup_stm32f407vgtx.o
+                0x00000000       0x6c ./Startup/startup_stm32f407vgtx.o

@@ -59,8 +59,8 @@ all: main-build
 main-build: SERVO_BARE_METAL.elf secondary-outputs
 
 # Tool invocations
-SERVO_BARE_METAL.elf SERVO_BARE_METAL.map: $(OBJS) $(USER_OBJS) /home/krushna/MICROCONTROLLER/SERVO_BARE_METAL/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "SERVO_BARE_METAL.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/krushna/MICROCONTROLLER/SERVO_BARE_METAL/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SERVO_BARE_METAL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+SERVO_BARE_METAL.elf SERVO_BARE_METAL.map: $(OBJS) $(USER_OBJS) /home/krushna/PROJECT_SMART_PARKING/smart-parking/SERVO_BARE_METAL/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SERVO_BARE_METAL.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/krushna/PROJECT_SMART_PARKING/smart-parking/SERVO_BARE_METAL/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SERVO_BARE_METAL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

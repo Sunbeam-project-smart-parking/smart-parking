@@ -1,0 +1,24 @@
+!SESSION 2025-07-25 13:41:58.148 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/krushna/PROJECT_SMART_PARKING/smart-parking/IR_Implementation/vehical_count
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-25 13:42:01.582
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-25 13:42:01.583
+!MESSAGE Log4j2 initialized with config file /home/krushna/PROJECT_SMART_PARKING/smart-parking/IR_Implementation/vehical_count/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-25 13:42:03.010
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-25 13:45:07.460
+!MESSAGE Indexed 'SERVO_BARE_METAL' (6 sources, 65 headers) in 0.815 sec: 3,419 declarations; 5,781 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-25 13:45:08.098
+!MESSAGE Indexed 'GPIO3' (15 sources, 90 headers) in 0.636 sec: 5,713 declarations; 14,418 references; 0 unresolved inclusions; 113 syntax errors; 8 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-25 13:45:09.468
+!MESSAGE Indexed 'RTOS_1' (33 sources, 144 headers) in 1.37 sec: 14,348 declarations; 63,216 references; 1 unresolved inclusions; 202 syntax errors; 247 unresolved names (0.32%)
