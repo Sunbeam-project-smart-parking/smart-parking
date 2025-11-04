@@ -46,3 +46,36 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/krushna/PROJ
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-28 16:32:46.313
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-08-06 12:27:09.865 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-06 12:27:50.518
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-06 12:27:50.520
+!MESSAGE Log4j2 initialized with config file /home/krushna/PROJECT_SMART_PARKING/smart-parking/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-06 12:27:53.267
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2025-08-06 17:35:19.669 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/krushna/PROJECT_SMART_PARKING/smart-parking/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-06 17:35:22.530
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-06 17:35:22.531
+!MESSAGE Log4j2 initialized with config file /home/krushna/PROJECT_SMART_PARKING/smart-parking/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-06 17:35:25.151
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-06 17:36:08.492
+!MESSAGE Indexed 'Gate_initalize' (24 sources, 125 headers) in 2.66 sec: 13,326 declarations; 68,794 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.29%)
